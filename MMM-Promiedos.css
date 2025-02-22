@@ -1,0 +1,52 @@
+.MMM-Promiedos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px;
+  max-height: 50vh;
+  overflow-y: auto;
+}
+
+.MMM-Promiedos .promiedos-table {
+  flex: 0 1 auto;
+  min-width: 300px;
+  margin-bottom: 5px;
+}
+
+.MMM-Promiedos table {
+  font-size: 0.7em;
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2px 0;
+}
+
+.MMM-Promiedos h2 {
+  margin: 2px 0;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+.MMM-Promiedos th,
+.MMM-Promiedos td {
+  padding: 1px 2px;
+  text-align: center;
+}
+
+.MMM-Promiedos img {
+  width: 12px;
+  height: 12px;
+  vertical-align: middle;
+}
+
+.MMM-Promiedos td:nth-child(2) {
+  text-align: left;
+  max-width: 120px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.MMM-Promiedos th:not(:nth-child(2)),
+.MMM-Promiedos td:not(:nth-child(2)) {
+  width: 25px;
+}
