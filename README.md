@@ -1,6 +1,6 @@
 # MMM-Promiedos
 
-A [MagicMirror²](https://github.com/MichMich/MagicMirror) module to display Argentine football league tables using data from Promiedos.
+A [MagicMirror²](https://github.com/MagicMirrorOrg/MagicMirror) module to display Argentine football league tables using data from Promiedos.
 
 ## Preview
 ![MMM-Promiedos Preview](/MMM-Promiedos%20Module.png)
